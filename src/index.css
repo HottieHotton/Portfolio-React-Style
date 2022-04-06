@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p, h1, h2, h3, h4, h5, span, label, input, button, a, li {
+  font-family: "Montserrat";
+}
+
+nav {
+  background-color: lightskyblue;
+}
+
+.navText, a, a:visited{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navTextName {
+  color: black;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.button-color{
+  background-color: black;
+}
+
+p {
+  font-size: 18px;
+}
+
+.icons, .icons:visited {
+  color: black;
+}
