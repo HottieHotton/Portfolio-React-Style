@@ -1,21 +1,31 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap"
+import "../App.css";
 
 function Home(){
     return(
         <Container fluid="md" className="my-5">
-      <Row className="align-items-center">
+      <Row>
         <Col sm={8} className="p-5 mb-5">
-          <h1 id="about">About Me</h1>
+          <h1>Welcome to my Portfolio!</h1>
+          <hr></hr>
           <div>
             <p>
-              My love of technology might trace back to my high school Java
-              class or the time I built my first computer at age 12. After
-              helping my family business achieve its highest revenues ever and
-              successfully sell to new ownership, I look forward to joining an
-              industry well-suited to my ideas, resourcefulness, and technical
-              skills.
+              From HTML,<br></br>CSS,<br></br>and JS,<br></br>
+              this portfolio has everything<br></br>you need to know about who I am and how I code!
             </p>
+            <p>
+                I hope you are able to enjoy the content and if you want to work together,
+                <br></br>
+                You can reach me with the links below,
+                <br></br>
+                and in the Contact Me section!
+            </p>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
           </div>
         </Col>
       </Row>

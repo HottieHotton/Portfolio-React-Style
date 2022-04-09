@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
 
 import Header from './components/Header';
 import Home from './components/Home';
@@ -13,7 +14,7 @@ function App() {
     <Router>
     <div>
       <Header></Header>
-      <main>
+      <main className="mainApp"> 
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />

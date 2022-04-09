@@ -6,7 +6,7 @@ function Footer() {
   return (
     <Container>
       <Navbar fixed="bottom" expand="lg">
-        <Container>
+        <Container className="footer">
           <Navbar.Brand className="m-auto" id="footer">
             <a
               className="m-3 icons"
