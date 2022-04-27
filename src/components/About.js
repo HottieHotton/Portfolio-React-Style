@@ -44,7 +44,7 @@ function About() {
               <br></br>
               And all of the Full-Stack in between!
             </p>
-            <a href="https://drive.google.com/file/d/1BUkPOHsT9GldYKSD1nKilvctBW_7YSLx/view?usp=sharing" target="_blank">Click here to see my Resume!</a>
+            <a href="https://drive.google.com/file/d/1tUB24D70D_uBp2-7O6H4mrsV9_fiY_ka/view?usp=sharing" target="_blank">Click here to see my Resume!</a>
         </Col>
     </Container>
     </>

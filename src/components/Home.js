@@ -7,7 +7,7 @@ function Home(){
         <Container fluid="md" className="my-5">
       <Row>
         <Col sm={8} className="p-5 mb-5">
-          <h1>Welcome to my Portfolio!</h1>
+          <h1>Welcome to my Portfolio!(WIP)</h1>
           <hr></hr>
           <div>
             <p>
