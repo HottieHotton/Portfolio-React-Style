@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <Container>
-      <Navbar fixed="bottom" expand="lg">
-        <Container className="footer">
+      <Navbar position= "absolute" expand="lg">
+        <Container className="footer" position= "absolute">
           <Navbar.Brand className="m-auto" id="footer">
             <a
               className="m-3 icons"
@@ -18,7 +18,7 @@ function Footer() {
             </a>
             <a
               className="m-3 icons"
-              href="https://www.linkedin.com/in/braxton-hotton-4011b9149/"
+              href="https://www.linkedin.com/in/braxton-hotton/"
               target="_blank"
               rel="noreferrer"
             >

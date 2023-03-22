@@ -99,7 +99,6 @@ function Contact() {
               </div>
             )}
             <Button
-              className="button-color  mb-5"
               data-testid="button"
               type="submit"
             >
